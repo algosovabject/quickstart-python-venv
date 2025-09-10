@@ -34,7 +34,7 @@ Use a virtual environment (venv) whenever you:
 ### Step 1: Create a Virtual Environment
 Go to your project folder in the terminal, then run:
 
-bash
+bash  
 python3 -m venv venv
 
 This creates a folder named venv that holds your project’s “toolbox.”
@@ -42,12 +42,12 @@ This creates a folder named venv that holds your project’s “toolbox.”
 ## Step 2: Turn On the Environment
 Before running scripts, activate the environment.
 
-- Mac/Linux
-bash
+- Mac/Linux  
+bash  
 source venv/bin/activate
 
-- Windows (PowerShell)
-powershell
+- Windows (PowerShell)  
+powershell  
 venv\Scripts\Activate.ps1
 
 If successful, you’ll see (venv) appear at the start of your command line.
@@ -55,7 +55,7 @@ If successful, you’ll see (venv) appear at the start of your command line.
 ## Step 3: Install Packages
 While the environment is active, install packages like this:
 
-bash
+bash  
 pip install requests
 
 Everything stays inside the project’s toolbox — not on your computer as a whole.
@@ -63,7 +63,7 @@ Everything stays inside the project’s toolbox — not on your computer as a wh
 ## Step 4: Turn Off the Environment
 When you’re done, type:
 
-bash
+bash  
 deactivate
 
 This safely closes the toolbox.
@@ -76,23 +76,23 @@ This safely closes the toolbox.
 - Never email or upload your venv folder.
 - Instead, share your requirements file:
 
-bash
+bash  
 pip freeze > requirements.txt
 
 Colleagues can then re-create your environment with:
 
-bash
+bash  
 pip install -r requirements.txt
 
 ---
 
 ## Troubleshooting (Common Fixes)
-❌ Command not found: python3
-→ Python isn’t installed or isn’t on your PATH. Contact IT.
-❌ No module named venv
-→ Ask IT to install the Python venv package.
-❌ Still not working?
-✅ Check if (venv) appears at the start of your command line.
+❌ Command not found: python3  
+→ Python isn’t installed or isn’t on your PATH. Contact IT.  
+❌ No module named venv  
+→ Ask IT to install the Python venv package.  
+❌ Still not working?  
+✅ Check if (venv) appears at the start of your command line.  
 ✅ Reactivate with the correct command:
 
 Mac/Linux: source venv/bin/activate
