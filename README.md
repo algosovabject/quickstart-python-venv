@@ -4,13 +4,15 @@
 A sample quickstart guide showing employees how to safely run Python scripts by using virtual environments (venv).  
 
 ## Audience  
-Non-programmers and other personnel who seldom use Python for work projects.
+Non-programmers and other personnel who are new to Python and/or seldomly use it for work projects.
 
 ## Why I wrote this: 
-To round out my technical writing portfolio with a concise, structured quickstart guide describing how to set up an integral yet sometimes confusing part of the Python workflow.
+To practice writing step-by-step instructions for technical but mixed audiences. Many users struggle with Python environment setup (I know I did), so I created a clear, annotated guide with troubleshooting sections.
 
 ## What it demonstrates: 
-Ability to format in Markdown, write for multiple audiences, translate jargon into clear explanations, and provide glossary-style reference material.
+- Breaking down complex workflows into concise, actionable steps.  
+- Balancing technical accuracy with accessibility for non-experts.  
+- Using annotated screenshots and glossaries to improve comprehension.  
 
 ## Read here:  
 [Quickstart Guide](TS-Quickstart.pdf)
